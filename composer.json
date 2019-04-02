@@ -1,0 +1,28 @@
+{
+    "name": "zuncms/helper",
+    "description": "助手函数及类库",
+    "keywords": [
+        "support",
+        "string",
+        "array",
+        "helper"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zuncms",
+            "email": "zuncms@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zuncms\\Helper\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
